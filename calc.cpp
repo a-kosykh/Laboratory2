@@ -42,12 +42,12 @@ using namespace std;
     }
 int main() {
     float a=6.25,b=5;
-    cout << "Ñóììà: " << sum(a,b) << endl;
-    cout << "Äåëåíèå: " << div(a,b) << endl;
-    cout << "Óìíîæåíèå: " << multi(a,b) << endl;
-    cout << "Âû÷èòàíèå: " << min(a,b) << endl;
-    cout << "Còåïåíü: " << pow(a,b) << endl;
-    cout << "Êâàäğàòíûé êîğåíü: " << sqrt(a) << endl;
+    cout << "Ğ¡ÑƒĞ¼Ğ¼Ğ°: " << sum(a,b) << endl;
+    cout << "Ğ”ĞµĞ»ĞµĞ½Ğ¸Ğµ: " << div(a,b) << endl;
+    cout << "Ğ£Ğ¼Ğ½Ğ¾Ğ¶ĞµĞ½Ğ¸Ğµ: " << multi(a,b) << endl;
+    cout << "Ğ’Ñ‹Ñ‡Ğ¸Ñ‚Ğ°Ğ½Ğ¸Ğµ: " << min(a,b) << endl;
+    cout << "CÑ‚ĞµĞ¿ĞµĞ½ÑŒ: " << pow(a,b) << endl;
+    cout << "ĞšĞ²Ğ°Ğ´Ñ€Ğ°Ñ‚Ğ½Ñ‹Ğ¹ ĞºĞ¾Ñ€ĞµĞ½ÑŒ: " << sqrt(a) << endl;
 
     return 0;
 }

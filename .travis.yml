@@ -1,5 +1,4 @@
 language: generic
-os: osx
 matrix:
   include:
     - os: linux
@@ -18,7 +17,3 @@ matrix:
           packages:
             - clang-3.8
           sources: *sources
-script:
-- mkdir build
-- cd build
-- cmake .. && make0          

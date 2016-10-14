@@ -28,12 +28,12 @@ long double pow(float x, float y) {
     return power;
 }
 long double sqrt(float x) {
-    double powi = 1;
-    int i = 1;
-    for(i;i<x;i++)
-    {
-        if (pow(powi,2) == x) break;
-        else (powi = 0.5*(powi + x/powi));
+    double powi=1; double y;
+    int i=0;
+    while(1) {
+        y=powi;
+        powi=1./2*(powi+x/powi);
+        if (powi>=y) { i++; if (i>1) {break};};
     }
-    return powi;
+    return(powi);
 }

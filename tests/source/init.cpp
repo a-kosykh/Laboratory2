@@ -1,4 +1,4 @@
-#include <calculator.hpp>
+#include <calc.hpp>
 #include <catch.hpp>
 
 SCENARIO ("calc sum", "[sum]"){

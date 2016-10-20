@@ -33,7 +33,10 @@ long double sqrt(float x) {
     while(1) {
         y=powi;
         powi=1./2*(powi+x/powi);
-        if (powi>=y) { i++; if (i>1) {break;};
+        if (powi>=y) {
+            i++; if (i>1);
+            break;
+        }
     }
     return(powi);
 }

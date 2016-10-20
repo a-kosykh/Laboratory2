@@ -1,7 +1,4 @@
 language: generic
-before_install:
-  - test -n $CC  && unset CC
-  - test -n $CXX && unset CXX
 os:
 - osx
 matrix:

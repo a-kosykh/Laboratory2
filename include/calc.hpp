@@ -1,6 +1,6 @@
-long double sum(float x, float y);
-long double div(float x, float y);
-long double multi(float x, float y);
-long double min(float x, float y);
-long double pow1(float x, float y);
-long double sqrt1(float x);
+long double sum( x,y );
+long double div( x,y );
+long double multi( x,y );
+long double min( x,y );
+long double pow1( x,y );
+long double sqrt1( x,y );

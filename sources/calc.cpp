@@ -32,7 +32,7 @@ long double sqrt1(float x) {
     int i=0;
     while(1) {
         y=powi;
-        powi=1./2*(powi+x/powi);
+        powi=0.5*(powi+x/powi);
         if (powi>=y) {
             i++; if (i>1);
             break;

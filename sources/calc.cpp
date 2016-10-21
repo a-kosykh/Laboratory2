@@ -27,7 +27,7 @@ long double pow1(float x, float y) {
     }
     return power;
 }
-long double sqrt1(float x) {
+ /*long double sqrt1(float x) {
     double powi=1; double y;
     int i=0;
     while(1) {
@@ -39,4 +39,4 @@ long double sqrt1(float x) {
         }
     }
     return(powi);
-}
+} */

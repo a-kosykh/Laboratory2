@@ -38,6 +38,6 @@ SCENARIO ("calc pow", "[pow]"){
 }
 SCENARIO ("calc sqrt", "[sqrt]"){
     float x = 16;
-    double rv = sqrt (x);
+    double long rv = sqrt (x);
         REQUIRE ( rv == 4 );
 }

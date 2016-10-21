@@ -29,15 +29,15 @@ SCENARIO ("calc min", "[min]"){
     double long rv = min ( x,y );
         REQUIRE ( rv == 8 );
 }
-SCENARIO ("calc pow", "[pow]"){
+SCENARIO ("calc pow1", "[pow1]"){
     float x = 2;
     float y = 3;
 
-    double long rv = pow ( x,y );
+    double long rv = pow1 ( x,y );
         REQUIRE ( rv == 8 );
 }
-SCENARIO ("calc sqrt", "[sqrt]"){
+SCENARIO ("calc sqrt1", "[sqrt1]"){
     float x = 16;
-    double long rv = sqrt (x);
+    double long rv = sqrt1 (x);
         REQUIRE ( rv == 4 );
 }

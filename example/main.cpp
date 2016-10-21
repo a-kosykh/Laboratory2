@@ -12,8 +12,8 @@ int main() {
     cout << "Деление: " << div(x,y) << endl;
     cout << "Умножение: " << multi(x,y) << endl;
     cout << "Вычитание: " << min(x,y) << endl;
-    cout << "Степень: " << pow(x,y) << endl;
-    cout << "Квадратный корень первого числа: " << sqrt(x) << endl;
+    cout << "Степень: " << power(x,y) << endl;
+    cout << "Квадратный корень первого числа: " << sqrt1(x) << endl;
 
     return 0;
 }

@@ -18,7 +18,7 @@ long double min(float x, float y)
 {
     return (x-y);
 }
-long double pow(float x, float y) {
+long double pow1(float x, float y) {
     float power;
     int i;
     power = 1;
@@ -27,7 +27,7 @@ long double pow(float x, float y) {
     }
     return power;
 }
-long double sqrt(float x) {
+long double sqrt1(float x) {
     double powi=1; double y;
     int i=0;
     while(1) {

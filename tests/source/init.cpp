@@ -36,8 +36,8 @@ SCENARIO ("calc pow1", "[pow1]"){
     double long rv = pow1 ( x,y );
         REQUIRE ( rv == 8 );
 }
-/* SCENARIO ("calc sqrt1", "[sqrt1]"){
-    float x = 16;
+ SCENARIO ("calc sqrt1", "[sqrt1]"){
+    float x = 0.25;
     double long rv = sqrt1 (x);
-        REQUIRE ( rv == 4 );
-} */
+        REQUIRE ( rv == 0.5 );
+}

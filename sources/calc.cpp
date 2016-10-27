@@ -4,10 +4,7 @@ long double sum(float x, float y)
 }
 long double div(float x, float y)
 {
-    if (y != 0)
-        return (x/y);
-    else {
-        return (x/y);
+    return (x/y)
     }
 }
 long double multi(float x, float y)

@@ -10,7 +10,7 @@ long double multi(float x, float y)
 {
     return x*y;
 }
-long double min(float x, float y)
+long double sub(float x, float y)
 {
     return x-y;
 }

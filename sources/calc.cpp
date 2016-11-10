@@ -9,7 +9,7 @@ long double *div(double x, double y) {
         return p;
     }
     else
-        return NULL;
+        return nullptr;
     }
 long double multi(float x, float y)
 {

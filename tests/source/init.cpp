@@ -41,3 +41,9 @@ SCENARIO ("calc pow1", "[pow1]"){
     double long rv = sqrt1 (x);
         REQUIRE ( rv == 0.5 );
 }
+SCENARIO ("calc div2", "[div]"){
+    float x = 16;
+    float y = 0;
+
+    double long rv = *div ( x,y );
+        REQUIRE ( rv == nullptr );

@@ -26,7 +26,7 @@ SCENARIO ("calc sub", "[sub]"){
     float x = 12;
     float y = 4;
 
-    double long rv = min ( x,y );
+    double long rv = sub ( x,y );
         REQUIRE ( rv == 8 );
 }
 SCENARIO ("calc pow1", "[pow1]"){

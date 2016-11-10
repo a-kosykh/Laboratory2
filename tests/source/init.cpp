@@ -12,7 +12,7 @@ SCENARIO ("calc div", "[div]"){
     float x = 16;
     float y = 4;
 
-    double long rv = div ( x,y );
+    double long rv = *div ( x,y );
         REQUIRE ( rv == 4 );
 }
 SCENARIO ("calc multi", "[multi]"){

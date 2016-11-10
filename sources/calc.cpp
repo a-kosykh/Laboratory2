@@ -29,15 +29,19 @@ long double pow1(float x, float y) {
     return power;
 }
 long double sqrt1(float x) {
-    double temp=1; double y;
-    int i=0;
-    while(1) {
-        y=temp;
-        temp=0.5*(temp+x/temp);
-        if (temp>=y) {
-            i++; if (i>1);
-            break;
+    float xn = 1.0;
+    float xn1 = 2.0;
+    if ( a != 1 && a != 0 )
+    {
+        while ( (xn1 - xn) > 0.000001 || (xn1 - xn) < -0.000001  )
+        {
+            xn = xn1;
+            xn1 = (float)(xn + (float)a/xn)/2;
         }
     }
-    return(temp);
+    else if ( a == 1 ) xn1 = 1;
+    else if ( a == 0 ) xn1 = 0;
+
+
+    return xn1;
 }

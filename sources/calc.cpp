@@ -2,10 +2,15 @@ long double sum(float x, float y)
 {
     return x+y;
 }
-long double div(float x, float y)
-{
-    return x/y;
-}
+long double *div(double x, double y) {
+    if (y != 0){
+        long double res = x/y;
+        long double *p = &res;
+        return p;
+    }
+    else
+        return NULL;
+    }
 long double multi(float x, float y)
 {
     return x*y;

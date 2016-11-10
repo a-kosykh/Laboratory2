@@ -22,7 +22,7 @@ SCENARIO ("calc multi", "[multi]"){
     double long rv = multi ( x,y );
         REQUIRE ( rv == 24 );
 }
-SCENARIO ("calc min", "[min]"){
+SCENARIO ("calc sub", "[sub]"){
     float x = 12;
     float y = 4;
 

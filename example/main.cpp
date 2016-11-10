@@ -10,7 +10,11 @@ int main() {
     cout << "y = ";
     cin >> y;
     cout << "Сумма: " << sum( x, y ) << endl;
-    cout << "Деление: " << div( x, y ) << endl;
+    long double * res = div(x,y);
+    if (res)
+        cout << "Деление: " << *res << endl;
+    else
+        cout << "Делить на ноль нельзя" << endl;
     cout << "Умножение: " << multi( x, y ) << endl;
     cout << "Вычитание: " << min( x, y ) << endl;
     cout << "Степень: " << pow1( x, y ) << endl;

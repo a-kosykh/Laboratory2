@@ -16,7 +16,7 @@ int main() {
     else
         cout << "Делить на ноль нельзя" << endl;
     cout << "Умножение: " << multi( x, y ) << endl;
-    cout << "Вычитание: " << min( x, y ) << endl;
+    cout << "Вычитание: " << sub( x, y ) << endl;
     cout << "Степень: " << pow1( x, y ) << endl;
     cout << "Квадратный корень первого числа: " << sqrt1( x ) << endl;
 

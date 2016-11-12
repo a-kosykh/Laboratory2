@@ -4,9 +4,9 @@ long double sum(float x, float y)
 }
 long double *div(double x, double y) {
     if (y != 0){
-        long double res = x/y;
-        long double *p = &res;
-        return p;
+        long double *res = new long double;
+        *res = x/y;
+        return res;
     }
     else
         return nullptr;

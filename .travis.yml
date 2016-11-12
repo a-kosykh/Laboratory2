@@ -12,6 +12,7 @@ matrix:
             - ubuntu-toolchain-r-test
 os:
 - osx
+- linux
 script:
 - mkdir build
 - cd build

@@ -44,5 +44,5 @@ SCENARIO ("calc pow1", "[pow1]"){
 SCENARIO ("calc div2", "[div]"){
     float x = 16;
     float y = 0;
-    REQUIRE ( (x,y) == nullprt)
+    REQUIRE ( (x,y) == \0)
 }

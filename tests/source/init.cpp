@@ -1,5 +1,6 @@
 #include <calc.hpp>
 #include <catch.hpp>
+#
 
 SCENARIO ("calc sum", "[sum]"){
     float x = 3;
@@ -44,5 +45,5 @@ SCENARIO ("calc pow1", "[pow1]"){
 SCENARIO ("calc div2", "[div]"){
     float x = 16;
     float y = 0;
-    REQUIRE ( (x,y) == \0)
+    REQUIRE ( (x,y) == \0);
 }

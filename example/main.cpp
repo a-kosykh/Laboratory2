@@ -16,6 +16,7 @@ int main() {
         cout << "Деление: " << *res << endl;
     else
         cout << "Делить на ноль нельзя" << endl;
+    delete res;
     cout << "Умножение: " << multi( x, y ) << endl;
     cout << "Вычитание: " << sub( x, y ) << endl;
     cout << "Степень: " << pow1( x, y ) << endl;

@@ -4,23 +4,30 @@
 using namespace std;
 
 int main() {
-    float x;
-    float y;
+    float x,y;
     cout << "x = ";
     cin >> x;
+    if(!cin){
+        cout << "Number required" << endl;
+        return 0;
+    }
     cout << "y = ";
     cin >> y;
-    cout << "Сумма: " << sum( x, y ) << endl;
+    if(!cin){
+        cout << "Number required" << endl;
+        return 0;
+    }
+    cout << "Сумма: " << sum(x,y) << endl;
     long double * res = div(x,y);
     if (res)
         cout << "Деление: " << *res << endl;
     else
         cout << "Делить на ноль нельзя" << endl;
     delete res;
-    cout << "Умножение: " << multi( x, y ) << endl;
-    cout << "Вычитание: " << sub( x, y ) << endl;
-    cout << "Степень: " << pow1( x, y ) << endl;
-    cout << "Квадратный корень первого числа: " << sqrt1( x ) << endl;
+    cout << "Умножение: " << multi(x,y) << endl;
+    cout << "Вычитание: " << min(x,y) << endl;
+    cout << "Степень: " << pow(x,y) << endl;
+    cout << "Квадратный корень первого числа: " << sqrt(x) << endl;
 
     return 0;
 }
